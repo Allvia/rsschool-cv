@@ -1,11 +1,11 @@
-#Olga Nicolaevna
-####Junior Front-end developer
+# Olga Nicolaevna
+#### Junior Front-end developer
 ___
 
-###Personal Info
-Adress: Minsk, Belarus
-e-mail: o2701@tut.by
-phone: +375297021763
+### Personal Info
+*Adress*: Minsk, Belarus
+*e-mail*: o2701@tut.by
+*phone*: +375297021763
 
 ### Scills
 
@@ -14,7 +14,8 @@ phone: +375297021763
 ![JavaScript](https://img.shields.io/badge/-JavaScript-3B4253?style=for-the-badge&logo=JavaScript)
 ![React](https://img.shields.io/badge/-React-3B4253?style=for-the-badge&logo=React)
 
-###Sample code
+### Sample code
+
 ```
 const App = () => {
   return (
@@ -36,11 +37,13 @@ const App = () => {
   )
 }
 ```
-###
-###Experience
+## #Experience
 1. RSScool
    
-###Languages
+### Languages
 
 _Russian_: Nativ
 _English_: A+
+
+### Education  
+_RSScool_ 2021-now time 
