@@ -1,0 +1,49 @@
+.ava {
+    display: flex;
+    width: 100px;
+  height: 80px;
+  border-radius: 40px;
+}
+
+._container{
+    max-width: 1046px;
+    margin: 0px auto;
+}
+/* Централизация материала в данных размерах */
+.body{
+    margin: 0px;
+}
+.header {
+    font-size: 40px;
+   
+}
+.personal {
+    font-size: 30px;
+}
+
+.personal_item {
+    font-size: 18px;
+}
+
+
+.skill {
+    
+    font-size: 30px;
+}
+
+.skill_item{
+    font-size: 18px;
+}
+.experiece {
+    font-size: 30px;
+}
+.experiece_item {
+    font-size: 18px;
+}
+
+.languages {
+    font-size: 30px;
+   }
+   .languages_item {
+    font-size: 18px;
+}
