@@ -1,49 +1,48 @@
-.ava {
-    display: flex;
-    width: 100px;
-  height: 80px;
-  border-radius: 40px;
-}
 
-._container{
-    max-width: 1046px;
-    margin: 0px auto;
-}
-/* Централизация материала в данных размерах */
-.body{
-    margin: 0px;
-}
-.header {
-    font-size: 40px;
+body{
    
+    padding: 1%;
+    background-color: rgba(71, 26, 113, 0.37);
 }
-.personal {
+
+h1 {font-size: 45px;}
+h3{
     font-size: 30px;
 }
 
-.personal_item {
-    font-size: 18px;
+.ava {
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
 }
+.header{
 
+      float: left; /*Задаем обтекание*/
+     /* line-height: 40px;/*Высота строки +  верт. центрирования текста*/
+     
+     background: dodgerblue;
+     color: white;
+     margin-top: 40px;
+     width: 45%; /*Фиксируем ширину блока*/
+     margin-right: 1px;
+     text-align: center; /*Центрируем текст по горизонтали*/
+        }
 
-.skill {
+.Other{
+    padding: 1px;
     
-    font-size: 30px;
+    float: right;
+    background-color: lawngreen;
+    margin: 40px -10px 1px;
+    width: 48%;
+    
 }
-
-.skill_item{
-    font-size: 18px;
-}
-.experiece {
-    font-size: 30px;
-}
-.experiece_item {
-    font-size: 18px;
-}
-
-.languages {
-    font-size: 30px;
-   }
-   .languages_item {
-    font-size: 18px;
-}
+li {
+    display: inline-block; 
+   width: 180px;
+ background: rgb(125, 30, 169);
+    color: rgb(5, 5, 5);
+    line-height: 120px;
+    font-size: 32px
+    text-align: center;
+    }
