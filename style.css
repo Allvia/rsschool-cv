@@ -1,3 +1,8 @@
+html {
+    margin: 0%;
+    padding: 0%;
+}
+
 
 body{
    
@@ -25,12 +30,12 @@ h3{
      margin-top: 40px;
      width: 45%; /*Фиксируем ширину блока*/
      margin-right: 1px;
-     text-align: center; /*Центрируем текст по горизонтали*/
+     text-align: justify; /*Центрируем текст по горизонтали*/
         }
 
-.Other{
+.other{
+   
     padding: 1px;
-    
     float: right;
     background-color: lawngreen;
     margin: 40px -10px 1px;
@@ -38,11 +43,10 @@ h3{
     
 }
 li {
-    display: inline-block; 
-   width: 180px;
- background: rgb(125, 30, 169);
+    width: 180px;
+    background: rgb(125, 30, 169);
     color: rgb(5, 5, 5);
     line-height: 50px;
     font-size: 32px
-    text-align: center;
+ text-align justify;
     }
