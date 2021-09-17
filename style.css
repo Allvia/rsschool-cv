@@ -1,52 +1,85 @@
 html {
+    display: block;
     margin: 0%;
     padding: 0%;
+    font-family: Arial, sans-serif;
+   
+    
+   
+   
 }
 
 
 body{
-   
+   margin: 0;
     padding: 1%;
-    background-color: rgba(71, 26, 113, 0.37);
+    background-color: rgb(233, 214, 219);
+    font-family: Arial, sans-serif
 }
 
-h1 {font-size: 45px;}
+h1 {font-size: 45px;
+    color: darkgrey;
+    font-size: 5vw;
+    line-height: 100%;
+}
 h3{
     font-size: 30px;
+    
+
+}
+.personal{
+    line-height: 25px
+
+
+}
+.personal_item{
+   
+    line-height: 35px;
+    /* padding: 15% 100%  */
+    text-align: center;
 }
 
 .ava {
-    height: 50%;
-    width: 50%;
+    height: 30%;
+    width: 30%;
     border-radius: 50%;
 }
 .header{
 
-      float: left; /*Задаем обтекание*/
+    float:left; /*Задаем обтекание*/
      /* line-height: 40px;/*Высота строки +  верт. центрирования текста*/
-     
-     background: dodgerblue;
-     color: white;
-     margin-top: 40px;
-     width: 45%; /*Фиксируем ширину блока*/
+     background: rgb(111, 69, 80);
+     margin-top: 15px;
+     width:35%; /*Фиксируем ширину блока*/
      margin-right: 1px;
-     text-align: justify; /*Центрируем текст по горизонтали*/
+     text-align: center; /*Центрируем текст по горизонтали*/
+     line-height: 45px
         }
 
 .other{
    
     padding: 1px;
     float: right;
-    background-color: lawngreen;
-    margin: 40px -10px 1px;
-    width: 48%;
-    
+    /* background-color: rgb(111, 78, 55); */
+    margin: 35px -10px 1px;
+    width: 60%;
+    line-height: 1px;
+   
 }
 li {
     width: 180px;
-    background: rgb(125, 30, 169);
-    color: rgb(5, 5, 5);
+    /* background: cmyk(0, 30, 50, 56); */
     line-height: 50px;
     font-size: 32px
  text-align justify;
+ line-height: 35px;
+ list-style-type: none;
     }
+ul{
+    margin-left: 0%;
+    padding-left: 3%;
+}
+.icon{
+    font-size: 2vw;
+    display: inline-table;
+}
