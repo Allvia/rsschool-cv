@@ -1,19 +1,17 @@
 html {
-    margin: 0px;
-    display: block;
-    margin: auto;
-    padding: 0%;
-    font-family: Arial, sans-serif;
-    border: 3px solid rgba(88, 2, 2, 0.952);
-    border-radius: 30px;
-    border-left-style:dotted;
     
+    display: block;
+    font-family: Arial, sans-serif;
+    /* border:2px solid rgba(88, 2, 2, 0.952);
+    border-radius: 30px; */
+    margin: 0% 1% 1% 10%;
+    padding: 1vh 1vw;
    
 }
 
 
 body{
-   margin-top: 0%;
+   
     padding: 1%;
     /* background-color: rgb(233, 214, 219); */
     font-family: Arial, sans-serif
@@ -57,24 +55,23 @@ text-decoration-line: underline;
 .header{
 
     float:left; /*Задаем обтекание*/
-     /* line-height: 40px;/*Высота строки +  верт. центрирования текста*/
+  
      background: rgb(111, 69, 80);
-     margin-top: 15px;
-     width:35%; /*Фиксируем ширину блока*/
-     margin-right: 1px;
+    
+     width:40%; /*Фиксируем ширину блока*/
+     
      text-align: center; /*Центрируем текст по горизонтали*/
-     height: 106vh;
+     height: 100vh;
      line-height: 45px
         }
 
 .other{
-   margin: 0%;
-    padding: 1px;
+   
     float: right;
-    /* background-color: rgb(111, 78, 55); */
-    /* margin: 35px -10px 1px; */
     width: 60%;
     line-height: 1px;
+    box-sizing: border-box;
+   
    
 }
 li {
