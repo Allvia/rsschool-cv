@@ -14,11 +14,12 @@ body{
    
     padding: 1%;
     /* background-color: rgb(233, 214, 219); */
-    font-family: Arial, sans-serif
+    font-family: Arial, sans-serif;
 }
 
-h1 {font-size: 45px;
-    color: darkgrey;
+h1 {
+    
+    color: rgb(219, 215, 215);
     font-size: 5vw;
     line-height: 100%;
   font-variant: small-caps;
@@ -57,9 +58,7 @@ text-decoration-line: underline;
     float:left; /*Задаем обтекание*/
   
      background: rgb(111, 69, 80);
-    
-     width:40%; /*Фиксируем ширину блока*/
-     
+    width: 35%; /*Фиксируем ширину блока*/
      text-align: center; /*Центрируем текст по горизонтали*/
      height: 100vh;
      line-height: 45px
