@@ -9,6 +9,10 @@ html {
    
 }
 
+.wrapper{
+    margin: 0 auto;
+    max-width: 1448px;
+}
 
 body{
    
@@ -25,20 +29,20 @@ h1 {
   font-variant: small-caps;
 }
 h3{
-    font-size: 30px;
+    font-size: 3vw;
     
 
 }
 .personal{
-    line-height: 25px
-
+    line-height: 25px;
+    font-size: 3vw;
 
 }
 .personal_item{
-   
+    font-size: 1.5vw;
     line-height: 35px;
-    /* padding: 15% 100%  */
-    text-align: center;
+   padding-left: 1%;
+   margin-left: 1%
 }
 
 .ava {
@@ -50,17 +54,17 @@ h3{
     display: block;
     margin-top: -30px;
     text-align:10px;
-    font-size: 20px;
+    font-size: 2vw;
 text-decoration-line: underline;
 }
 .header{
 
-    float:left; /*Задаем обтекание*/
+    float:left; 
   
      background: rgb(111, 69, 80);
-    width: 35%; /*Фиксируем ширину блока*/
-     text-align: center; /*Центрируем текст по горизонтали*/
-     height: 100vh;
+    width: 35%; 
+     text-align: center; 
+    max-height: 100%;
      line-height: 45px
         }
 
@@ -68,14 +72,13 @@ text-decoration-line: underline;
    
     float: right;
     width: 60%;
-    line-height: 1px;
+    line-height: 35px;
     box-sizing: border-box;
-   
-   
+    max-height: 90%;
+   font-size: 2vw;
 }
 li {
     width: 180px;
-    /* background: cmyk(0, 30, 50, 56); */
     line-height: 50px;
     font-size: 32px
  text-align justify;
@@ -87,12 +90,14 @@ ul{
     padding-left: 3%;
 }
 .icon{
-    font-size: 2vw;
+    font-size: 1/5vw;
     display: inline-table;
 }
 p{
     font-size: 7vw;
 }
 .school{
-    width: 15vw;
+    width: 5vw;
+    margin-top: 10%;
+    margin-left: 30%;
 }
